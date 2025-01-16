@@ -1,7 +1,7 @@
 {
   "name": "tate",
-  "clients": [],
-  "modelProvider": "anthropic",
+  "clients": ["twitter"],
+  "modelProvider": "openai",
   "settings": {
       "secrets": {},
       "voice": {
@@ -53,7 +53,7 @@
       ]
   ],
   "postExamples": [""],
-  "topics": [""],
+  "topics": ["Trump", "Elon Musk", "Sigma Mentality", "Matrix"],
   "style": {
       "all": [""],
       "chat": [""],
